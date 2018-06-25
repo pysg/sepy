@@ -3,8 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to sepyDocs's documentation!
-====================================
+Documentación Sepy 0.1
+======================
+
+.. image:: _static/sepy.png
+
+**Sepy** (Supercritical Extraction with Python) es una biblioteca open source orientada a cálculos de extracción con fluidos supercriticos.  
+
+
+
 
 .. toctree::
    :maxdepth: 2
