@@ -11,8 +11,6 @@ Documentación Sepy 0.1
 **Sepy** (Supercritical Extraction with Python) es una biblioteca open source orientada a cálculos de extracción con fluidos supercriticos.  
 
 
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

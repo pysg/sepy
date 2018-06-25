@@ -103,8 +103,16 @@ html_static_path = ['_static']
 
 # -- Options for HTMLHelp output ------------------------------------------
 
+import sphinx_rtd_theme
+
+
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sepyDocsdoc'
+
+
+
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
 
 
 # -- Options for LaTeX output ---------------------------------------------
