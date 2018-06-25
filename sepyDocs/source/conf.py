@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # sepyDocs documentation build configuration file, created by
-# sphinx-quickstart on Sun Jun 24 23:37:32 2018.
+# sphinx-quickstart on Mon Jun 25 03:55:55 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -17,9 +17,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-sys.path.insert(0, os.path.abspath('.'))
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- General configuration ------------------------------------------------
@@ -33,7 +33,6 @@ sys.path.insert(0, os.path.abspath('.'))
 # ones.
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
-    'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode']
 
@@ -73,7 +72,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -103,16 +102,8 @@ html_static_path = ['_static']
 
 # -- Options for HTMLHelp output ------------------------------------------
 
-import sphinx_rtd_theme
-
-
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sepyDocsdoc'
-
-
-
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -167,6 +158,3 @@ texinfo_documents = [
 
 
 
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
